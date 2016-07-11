@@ -5,8 +5,8 @@ var HomeView = React.createClass({
 		return (
 
 			<div class="homeView">
-				<a href='#messages/read'>view inbox</a>
-				<a href='#messages/write'>compose message</a>
+				<a href='#messages/read'>View inbox</a>
+				<a href='#messages/write'>Compose message</a>
 			</div>
 			)
 	}

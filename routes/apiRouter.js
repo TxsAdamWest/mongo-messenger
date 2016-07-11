@@ -6,7 +6,7 @@ let Msg = require('../db/schema.js').Msg
 
 
 apiRouter.get('/messages',function(request,response) {
-  //first argument gives the criteria (WHICH msgs do i want)
+  //first argument gives the criteria (WHICH msgs do i want),  and second being WHAT to do with that response data.
   Msg.find({},function(err,records) {
     response.json(records)
   })

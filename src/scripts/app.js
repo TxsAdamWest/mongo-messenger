@@ -9,7 +9,6 @@ import {MsgCollection} from './models'
 const app = function() {
 
 
-
 	const MsgRouter = Backbone.Router.extend({
 		routes: {
 			"messages/read": "showMsgs",

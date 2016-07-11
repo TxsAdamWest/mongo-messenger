@@ -5,7 +5,7 @@ const ComposeView = React.createClass({
 	render: function() {
 		return (
 			<div className="composeView">
-				<a href="#home">home</a>
+				<a href="#home">Home</a>
 				<ComposeForm />
 			</div>
 			)
